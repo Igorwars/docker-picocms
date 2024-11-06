@@ -7,7 +7,7 @@ services:
     command:
       "/run.sh"
     ports:
-      - 80:80
+      - 9090:80
     volumes:
       - ./config:/home/sites/picocms/config
       - ./content:/home/sites/picocms/content
